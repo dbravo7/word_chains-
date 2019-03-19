@@ -7,7 +7,6 @@ class WordChainer
 
     def initialize(dictionary_file_name)
         @dictionary = extract_file(dictionary_file_name)
- 
         run("ball", "deal")
     end 
 
